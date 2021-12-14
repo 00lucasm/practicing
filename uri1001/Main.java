@@ -10,6 +10,7 @@ public class Main {
 
         int A = scanner.nextInt();
         int B = scanner.nextInt();
+        scanner.close();
 
         int X = A + B;
 
