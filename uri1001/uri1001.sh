@@ -1,10 +1,9 @@
 
 #!/bin/bash
 
-read $A
-read $B
-X=0
+read A
+read B
 
-let "X = $(( A + B ))"
+X=$((A + B))
 
 echo "X = $X"
