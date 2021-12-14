@@ -1,5 +1,4 @@
 <?php
-    $A = $B = $X = 0;
     $A = readline();
     $B = readline();
 
