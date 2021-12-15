@@ -1,4 +1,3 @@
-package uri1001;
 
 import java.util.Scanner;
 
@@ -10,10 +9,8 @@ public class Main {
         int B = scanner.nextInt();
         scanner.close();
 
-        int X = A + B;
+        int SOMA = A+B;
 
-        System.out.println("X = " + X);
-
+        System.out.println("SOMA = " + SOMA);
     }
-
 }
