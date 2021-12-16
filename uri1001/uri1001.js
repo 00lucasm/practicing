@@ -1,4 +1,8 @@
-var A = parseInt(lines.shift());
-var B = parseInt(lines.shift());
+var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+var lines = input.split('\n');
 
-console.log(`SOMA = ${A+B}`);
+/**
+ * Escreva a sua solução aqui
+ * Code your solution here
+ * Escriba su solución aquí
+ */
