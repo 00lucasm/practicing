@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+  int time;
+
+  scanf("%d", &time);
+
+  printf("%d:%d:%d\n", time/3600, (time%3600)/60, ((time%3600)%60));
+
+  return 0;
+}
