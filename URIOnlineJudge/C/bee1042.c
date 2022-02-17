@@ -5,10 +5,12 @@ int main(){
   int a, b, c, cmp;
 
   scanf("%d %d %d", &a, &b, &c);
+  printf("%d\n%d\n%d\n", a, b, c);
 
-  cmp = a;
+  if((a>b) && (b>c))
+    printf("%d\n%d\n%d\n", a, b, c);
+  else if((a>c) && (c>b))
 
-  printf("%d\n %d\n %d\n", &a, &b, &c);
 
   return 0;
 }
