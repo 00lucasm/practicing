@@ -2,4 +2,4 @@
 
 read A
 read B
-echo "SOMA =  $((A + B))"
+printf "SOMA =  $((A + B))\n"
