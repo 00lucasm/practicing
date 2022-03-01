@@ -3,4 +3,4 @@
 read A
 read B
 
-echo "PROD = $((A * B))"
+printf "PROD = $((A * B))\n"
